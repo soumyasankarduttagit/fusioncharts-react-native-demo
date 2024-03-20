@@ -10,8 +10,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "expo": "^50.0.0",
     "react": "18.2.0",
-    "react-native": "0.73.6"
+    "react-native": "0.73.6",
+    "react-native-fusioncharts": "^5.2.3",
+    "react-native-webview": "^13.8.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
