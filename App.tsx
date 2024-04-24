@@ -99,7 +99,7 @@ global.licenseConfig = {
     return (
     <View style={styles.container}>
     <Text style={styles.heading}>
-    FusionCharts Integration with React Native
+    FusionTime Integration with React Native
     </Text>
     
     <ReactNativeFusionCharts
