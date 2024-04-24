@@ -1,4 +1,7 @@
 {
   "name": "bare_first",
-  "displayName": "bare_first"
+  "displayName": "bare_first",
+  "plugins": [
+    "expo-font"
+  ]
 }

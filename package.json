@@ -10,7 +10,9 @@
     "test": "jest"
   },
   "dependencies": {
+    "@expo-google-fonts/roboto": "^0.2.3",
     "expo": "^50.0.0",
+    "expo-font": "~11.10.3",
     "react": "18.2.0",
     "react-native": "0.73.6",
     "react-native-fusioncharts": "^5.2.3",

@@ -1,6 +1,12 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 import ReactNativeFusionCharts from 'react-native-fusioncharts';
+import {
+  useFonts,
+  Roboto_400Regular,
+  Roboto_400Regular_Italic
+} from "@expo-google-fonts/roboto";
+
 // import { LogBox } from 'react-native';
 // LogBox.ignoreLogs(['new NativeEventEmitter']); // Ignore log notification by message
 // LogBox.ignoreAllLogs(); //Ignore all log notifications
@@ -29,6 +35,7 @@ const HelloWorldApp = () => {
         yAxisName: "Reserves (MMbbl)",
         numberSuffix: "K",
         theme: "fusion",
+        captionFont:"Roboto_400Regular",
         exportEnabled: 1 // to enable the export chart functionality
       },
       data: chartData
@@ -42,7 +49,7 @@ const HelloWorldApp = () => {
         alignItems: 'center',
         marginTop: 50
       }}>
-      <Text>Fusioncharts RN 0.73</Text>
+      <Text>Fusioncharts demo</Text>
       <ReactNativeFusionCharts
         chartConfig={chartConfig}
       />
