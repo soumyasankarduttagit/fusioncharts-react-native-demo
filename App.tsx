@@ -21,7 +21,7 @@ global.licenseConfig = {
     const chartConfig = {
     type: 'timeseries',
     width: '100%',
-    height: '100%',
+    height: '500',
     dataFormat: 'json',
     dataSource: {
     data: null,
@@ -115,15 +115,16 @@ global.licenseConfig = {
     const styles = StyleSheet.create({
     container: {
     flex: 1,
-    padding: 10
+    padding: 10,
+    height: 1000
     },
     heading: {
     fontSize: 20,
     textAlign: 'center',
     marginBottom: 10
     },
-    chartContainer: {
-    height: 500
+    "chartcontainer": {
+    height: 100,
     }
     });
     
